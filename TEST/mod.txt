@@ -7,12 +7,12 @@ version=1.0.0
 
 [TrainUnit]
 schema=1
-id=test1_car
-name_loc=test1_name
+id=scjiang_test
+name_loc=test_name
 name_en=TestTrain
-length=6.5
-width=2.4
-max_speed=70
+length=19
+width=2.8
+max_speed=80
 power=144
 empty_mass=7000
 price=1700000
@@ -54,5 +54,5 @@ head_id=test1_head
 car_id=test1_car
 tail_id=test1_head
 tail_flip=true
-min_cars=1
-max_cars=3
+min_cars=2
+max_cars=8
