@@ -1,15 +1,15 @@
 [ModMeta]
 schema=1
-name=Test train mod
-author=Weird and Wry
-desc=testing 1 2 3
+name=China Metro Type B2 Vehicle
+author=SCJiang
+desc=Classic Type B2 Metro Vehicle in China
 version=1.0.0
 
 [TrainUnit]
 schema=1
-id=scjiang_test
-name_loc=test_name
-name_en=TestTrain
+id=sc_chnmtr_tb2_tc
+name_loc=sc_chnmtr_tb2_tc
+name_en=Classic Type B2 Vehicle
 length=19
 width=2.8
 max_speed=80
