@@ -1,47 +1,47 @@
 [ModMeta]
 schema=1
-name=China Metro Type B2 Vehicle
+name=China Metro Type B Vehicle
 author=SCJiang
-desc=Classic Type B2 Metro Vehicle in China
+desc=Classic Type B Metro Vehicle in China
 version=1.0.0
 
 [TrainUnit]
 schema=1
 id=sc_chnmtr_tb2_car
-name_loc=sc_chnmtr_tb2_tc_name
-name_en=Metro Type B2 Vehicle
+name_loc=sc_chnmtr_tb2_head_name
+name_en=China Metro Type B HEAD
 length=19
 width=2.8
 max_speed=80
-power=360
+power=155
 empty_mass=21920
 price=550000
-max_pax=240
+max_pax=250
 cost_per_km_per_pax=0.05
 cost_per_day=150
 tex_base=CHNMTRTB2/car_0.png
 tex_top=CHNMTRTB2/car_2.png
-tex_decors=CHNMTRTB2/car_1_0.png,CHNMTRTB2/car_1_1.png
+tex_decors=CHNMTRTB2/car_1_0.png
 tex_m_width=30
 tex_m_height=3.75
 
 [TrainUnit]
 schema=1
 id=sc_chnmtr_tb2_head
-name_loc=sc_chnmtr_tb2_tc_name
-name_en=Metro Type B2 Vehicle
+name_loc=sc_chnmtr_tb2_car_name
+name_en=China Metro Type B CAR
 length=19
 width=2.8
 max_speed=80
-power=360
+power=150
 empty_mass=21920
 price=550000
-max_pax=240
+max_pax=230
 cost_per_km_per_pax=0.05
 cost_per_day=100
 tex_base=CHNMTRTB2/loco_0.png
 tex_top=CHNMTRTB2/loco_2.png
-tex_decors=CHNMTRTB2/loco_1_0.png,CHNMTRTB2/loco_1_1.png
+tex_decors=CHNMTRTB2/loco_1_0.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -49,10 +49,10 @@ tex_m_height=3.75
 schema=1
 id=sc_chnmtr_tb2
 name_loc=test1_car_name
-name_en=Metro Type B2 Vehicle
+name_en=China Metro Type B
 head_id=sc_chnmtr_tb2_head
 car_id=sc_chnmtr_tb2_car
 tail_id=sc_chnmtr_tb2_head
 tail_flip=true
-min_cars=2
-max_cars=8
+min_cars=0
+max_cars=6
